@@ -10,6 +10,9 @@ It is divided in 20 localities, these can be divided into UPZ or Zonal Planning 
 
 The city has a relatively stable temperature throughout the year, oscillating between 8°C and 20°C, being 13°C the mean temperature.
 
+![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/3c2d2c8d-254c-4102-9ca0-d3cf8694663a)
+
+
 ### Soacha
 
 The city is located at the southwest of Bogota, in the Cundinamarca department at an altitude of 2565meters above sea level. It is totally conurbated with Bogota. In its urban area, Soacha is divided in “comunas”, while the rural is divided in “veredas” (Aldana and Chindicue, 2014)
