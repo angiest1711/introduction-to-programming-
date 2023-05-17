@@ -33,3 +33,52 @@ Libraries
 Loading Vector Layers -> It only includes the urban area of each city.
 Loading Raster Files
 Rescale DN and convert to Celsius degrees -> As the selected Landsat image belongs to the Collection 2 Level, it already has some preprocessing, making easier to rescale the values and working with them. A mistake made in the beginning was using a Level 1 image, making the obtained results not so logical.
+Changing CRS
+Croping the Landsat image to see the Study Area
+
+NDVI and NDBI
+Landcover
+Socioeconomic Strata
+
+Population Density of Bogota
+
+There is a lack of accuracy in the population data for Soacha, depending on the source,the population variates from 600.000 people to above 1 million people. What can be said is that density in Soacha is high due to the urbanization patterns that were caused by migration into the city.
+
+DEM
+
+Boxplots
+
+Landcover vs temperature
+
+Strata vs LST
+
+
+
+Relationship between Variables
+
+
+LST~NDVI
+LST~NDBI
+LST~Elevation
+LST~Population Density
+
+## Conclusions
+
+The socioeconomic strata that registers more data in terms of concentrated heat is the Strata 3 due to its economical activity and industries, forming a heat belt in the occidental part of the city.
+-Some of the unplanned areas do not take green areas into account, making their temperature higher, compared to those that, due to their location near the oriental hills, have more vegetation.
+
+Temperature decreases with the high terrains .
+
+## Limitations
+
+Computational power and storage.
+
+Data Availability
+
+A wider time frame would allow to see the differences between rain and dry seasons throughout the years and the evolution in temperatures.
+
+## Sources
+
+Secretaria de Planeación. 2020. Norma Urbana
+
+Aldana, C and Chindicue, C. 2014. Multitemporal Analysis Tierra Blanca and Neuta swamp in the municipality of Soacha
