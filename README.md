@@ -72,6 +72,11 @@ DEM
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/2fc3680c-2174-45ac-b122-aa7d11e6fab7)
 
+LST
+
+![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/c369971a-25d6-4df4-a8c2-baf33b296eeb)
+
+
 ## Boxplots
 
 Landcover vs temperature
