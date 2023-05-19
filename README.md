@@ -22,6 +22,8 @@ The city is located at the southwest of Bogota, in the Cundinamarca department a
 
 ## Data description
 
+The exercise can be replicated by changing the shapefiles and the landsat images with the desired ones. 
+
 1.Landsat 9 image -> Extracted from the USGS Earth Explorer web page, for the 31/01/2022. Belonging to the Landsat Collection 2 Level. It includes thermal information.
 
 2.Land cover data from the Cundinamarca government.
@@ -37,7 +39,9 @@ Colombia has a stratification system where it determines the socioeconomic condi
 Libraries
 
 Loading Vector Layers -> It only includes the urban area of each city.
+
 Loading Raster Files
+
 Rescale DN and convert to Celsius degrees -> As the selected Landsat image belongs to the Collection 2 Level, it already has some preprocessing, making easier to rescale the values and working with them. A mistake made in the beginning was using a Level 1 image, making the obtained results not so logical.
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/484eb349-8384-4027-8ebd-27c9a81cddb6)
@@ -47,63 +51,66 @@ Croping the Landsat image to see the Study Area
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/27a0257a-bbc5-4850-8d66-fa2bd5377ee0)
 
-NDVI and NDBI
+### NDVI and NDBI
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/2bbd331e-3cef-49c6-ac51-2f75e5ee2f7a)
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/4f4a4e22-916d-4175-b86a-a80c33eecf14)
 
-Landcover
+### Landcover
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/76898f94-6164-4d72-8d12-60169ef2ac31)
 
-Socioeconomic Strata
+### Socioeconomic Strata
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/ef879454-56a8-4d43-8657-6f20925d1415)
 
 
-Population Density of Bogota
+### Population Density of Bogota
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/67748d6b-1d8f-4fb9-9991-910a56734597)
 
 There is a lack of accuracy in the population data for Soacha, depending on the source,the population variates from 600.000 people to above 1 million people. What can be said is that density in Soacha is high due to the urbanization patterns that were caused by migration into the city.
 
-DEM
+### DEM
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/2fc3680c-2174-45ac-b122-aa7d11e6fab7)
 
-LST
+## LST
+
+It is possible to see that the areas that concentrate the most heat are located at the occident of the city. Those parts contain the insdustrial area of the city.
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/c369971a-25d6-4df4-a8c2-baf33b296eeb)
 
 
 ## Boxplots
 
-Landcover vs temperature
+### Landcover vs temperature
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/77d49504-cb98-4d22-89e7-5d7d79dfa8bd)
 
-Strata vs LST
+### Strata vs LST
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/7dc3f60f-8d22-4059-8879-8cbee479744d)
 
-Strata vs NDVI
+### Strata vs NDVI
+
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/a7a372a3-d38b-4c41-a211-9f92cf805255)
 
 
 
-Relationship between Variables
+## Relationship between Variables
 
 
-LST vs NDVI
+### LST vs NDVI
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/ac2f1e1a-6119-4a95-b5d8-e15946636268)
 
-LST vs NDBI
+### LST vs NDBI
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/0a289116-d1aa-46c4-bb8b-7310950676be)
 
-LST~Elevation
+### LST~Elevation
 
 ![image](https://github.com/angiest1711/introduction-to-programming-/assets/119541571/d4d4e889-9aa7-4424-a456-c02bdbe3ff17)
 
